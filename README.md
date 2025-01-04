@@ -62,7 +62,6 @@ This project is an AI-powered chatbot that uses **Natural Language Processing (N
 
 ## Example Output
 
-```
 Here is an example of how the conversation flow looks:
 
 Hello! I'm here to assist you. Type 'bye' to end the conversation. You: Hello ChatBot: Hello! How can I assist you today?
@@ -72,4 +71,36 @@ You: What is your name? ChatBot: I'm a chatbot created to assist you. You can ca
 You: I need help with my account. ChatBot: I'm here to help! What do you need assistance with?
 
 You: bye ChatBot: Goodbye! Have a great day!
-```
+
+
+When using **SpaCy** for entity extraction, the output may also include detected entities:
+
+
+ChatBot (Entities): [('New York', 'GPE')]
+
+
+
+This shows that the chatbot recognized "New York" as a **GPE** (Geopolitical Entity), which could be used for more dynamic and context-aware responses.
+
+
+## How to Run the Project
+
+1. **Install the necessary libraries:**
+
+pip install nltk pip install spacy python -m spacy download en_core_web_sm
+
+
+2. **Run the Python script:**
+
+Save the code as `chatbot.py` and run it in the terminal.
+
+
+3. **Start interacting with the chatbot:**
+
+Once the chatbot is running, you can type queries and get responses. Type `bye` to end the conversation.
+
+## Conclusion
+
+This AI chatbot demonstrates the power of **Natural Language Processing (NLP)** for building intelligent systems capable of understanding and responding to human language. By utilizing **NLTK** for conversation management and **SpaCy** for advanced entity recognition, the chatbot offers a dynamic, interactive experience for users.
+
+The project is a great starting point for anyone looking to develop more sophisticated NLP systems. Future improvements could include sentiment analysis, machine learning-based responses, integration with external APIs, and much more.
