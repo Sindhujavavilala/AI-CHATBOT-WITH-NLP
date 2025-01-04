@@ -104,3 +104,7 @@ Once the chatbot is running, you can type queries and get responses. Type `bye` 
 This AI chatbot demonstrates the power of **Natural Language Processing (NLP)** for building intelligent systems capable of understanding and responding to human language. By utilizing **NLTK** for conversation management and **SpaCy** for advanced entity recognition, the chatbot offers a dynamic, interactive experience for users.
 
 The project is a great starting point for anyone looking to develop more sophisticated NLP systems. Future improvements could include sentiment analysis, machine learning-based responses, integration with external APIs, and much more.
+
+## The Output Of The Task
+
+![image](https://github.com/user-attachments/assets/a4b0b6de-7f26-4f61-94b0-a12f51dbd8f4)
